@@ -17,3 +17,4 @@ else if(randomnumber2>randomnumber1){
 else{
     document.querySelector("h1").innerHTML="DRAW!"
 }
+location.reload;
