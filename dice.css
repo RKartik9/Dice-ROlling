@@ -19,7 +19,7 @@ p{
 
 .head{
     
-    font-family: cursive;
+    font-family:'Times New Roman', Times, serif;
     color: rgb(51, 255, 0);
     font-size: 4em;
     display: flex;
