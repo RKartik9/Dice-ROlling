@@ -42,8 +42,27 @@ img{
     width: 30%;
     display: block;
     padding: 1em;
+    height: 10em;
+    width: 10em;
 }
-@media(max-width: 600px){
+button{
+    height: 5em;
+    width: 9em;
+    border-radius: 1em;
+    background-color: rgba(60, 255, 0, 0.63);
+    color: white;
+    cursor: pointer;
+    border: 3px solid black;
+    margin-top: 6em;
+    
+
+}
+
+
+button:hover{
+    background-color: rgb(212, 0, 255);
+}
+@media(max-width: 450px ){
     img{
         width: 100%;
         border-radius: 3vh;
@@ -51,8 +70,11 @@ img{
     .head{
         font-size:1.5em;
         display: flex;
-        width: 7em;
-        padding-right: 10vh;
+        width: 8em;
+        padding: -2em;
+        justify-content: center;
+        align-items: center;
+        
     }
     
 }
